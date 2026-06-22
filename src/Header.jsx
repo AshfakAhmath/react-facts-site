@@ -2,13 +2,13 @@ import img from "./assets/pngwing.com.png";
 
 function Header() {
   return (
-    <header>
+    <header className="header">
       <img src={img} alt="React" width="80px" />
       <nav>
         <ul className="nav-list">
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li className="list">Pricing</li>
+            <li className="list">About</li>
+            <li className="list">Contact</li>
         </ul>
       </nav>
     </header>
