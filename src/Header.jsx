@@ -3,7 +3,7 @@ import img from "./assets/pngwing.com.png";
 function Header() {
   return (
     <header className="header">
-      <img src={img} alt="React" width="80px" />
+      <img className="nav-img" src={img} alt="React" />
       <nav>
         <ul className="nav-list">
             <li className="list">Pricing</li>

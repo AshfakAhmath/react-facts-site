@@ -1,3 +1,5 @@
+import Main from "./components/Main";
+import Navbar from "./components/Navbar";
 import Footer from "./Footer";
 import Header from "./Header";
 import MainContent from "./MainContent";
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <MainContent />
       <Footer />
+      <Navbar />
+      <Main />
     </>
   );
 }
