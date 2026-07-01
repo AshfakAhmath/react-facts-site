@@ -32,19 +32,24 @@ nav > span {
     font-weight: 700;
 }
 
-.main{
+main{
   padding: 60px 30px;
 }
 
-.main h1{
+main h1{
   margin: 0;
   font-size: 2.4rem;
 }
 
-.main ul{
+main ul{
   margin-top: 46px;
   max-width: 400px;
 }
-.main ul li{
+main ul li{
   padding-block: 10px;
+}
+
+main ul li::marker{
+  color: #61DAFB;
+  font-size: 1.5rem;
 }

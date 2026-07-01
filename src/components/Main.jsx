@@ -1,6 +1,6 @@
 function Main(){
     return(
-        <div className="main">
+        <main>
         <h1>Fun facts about React</h1>
         <ul>
             <li>Was first released in 2013</li>
@@ -9,7 +9,7 @@ function Main(){
             <li>Is maintained by Meta</li>
             <li>Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
-        </div>
+        </main>
     )
 }
 
