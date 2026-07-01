@@ -1,6 +1,13 @@
+import img from "../assets/pngwing.com.png";
+
 function Navbar(){
     return(
-        <h1>Navbar goes here</h1>
+        <header>
+            <nav>
+                <img src={img} alt="React image" className="nav-img" />
+                <span>ReactFacts</span>
+            </nav>
+        </header>
     )
 }
 
